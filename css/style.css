@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap');
+@charset "utf-8";
+
+.lista:hover{
+	background:rgba(52, 155, 232, 0.1);
+
+}
+.bakground{
+	background-image: url("../mujeres.jpeg");
+	 background-attachment: fixed;
+}
+.seccion{
+	background:rgba(255, 255, 255, 0.7);
+	border-radius: 10px 10px;
+	margin-bottom: 30px;
+	width: 90%;
+	border: 1px solid #BFBFBF;
+    box-shadow: 7px 7px 3px #EA1722;
+}
+.seccion .btn{
+	margin-bottom: 30px;
+}
+h1{
+	font-size: 28.5px;
+}
+
+h1,h2,h4,small{
+   font-family: 'Alfa Slab One', cursive;
+   color: #ffffff;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+  font-style: oblique;
+}
+.fichero{
+	width: 190px;
+	height: 60px;
+	color: #E91621;
+}
+.form{
+	margin-top: 10px;
+}
+.sombra{
+	box-shadow: 5PX 5PX 5PX #999;
+	margin-top: 5PX;
+	margin-bottom: 5%;
+}
+.top-header{
+	background:#FFFFFF ;
+	padding: 10px;
+	margin: -15px -15px;
+	border: 1px solid #BFBFBF;
+    box-shadow: 4px 4px 3px #EA1722;
+}
+/* General*/
+	body{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a:hover, a:visited, a{
+	text-decoration: none;
+}
+
+h1, h2{
+	color:#010101;
+	text-transform: uppercase;
+	font-weight: bold;
+	
+}
+
+/*footer*/
+footer{
+	background: #ffffff;
+	margin: -15px -15px;
+
+}
+.footer-para{
+	margin-left: 5px;
+}
+.footer small, p{
+	font-size: 12px;
+	color: #010101;
+	font-family: 'Alfa Slab One', cursive;
+	font-weight: 300;
+	margin: 0;
+	padding: 25px 0;
+
+}
