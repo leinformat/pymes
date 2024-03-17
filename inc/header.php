@@ -21,7 +21,7 @@
 		
 		<header class="top-header text-center">
 			<a style="position: relative;left:-20px; top:-11px; " class="navbar-brand hidden-xs hidden-sm hidden-md" href="index.php"><img style="width: 130px; height: 67px;" class="img-responsive" src="logo.png" alt=""></a>
-			<h1>Asociacion de mujeres emprendedoras puerto triunfo</h1>
+			<h1>Asocampos, Asociacion Campesina De Planas</h1>
 		</header>
 		<br><br>
  
