@@ -1,6 +1,6 @@
 <?php include 'inc/header.php'; ?>	
 		
-	<div class="container text-center seccion ">
+	<div class="container pymes-repository__repo-files">
 		<div class="row  text-justify">
 			<div class="sombra text-justify">
 				<div class="col-md-12">
@@ -13,6 +13,7 @@
 						?>
 						 <H2>Nuestros Documentos. </H2>
 						 <h3 style="color: #E91621;">Haga click Sobre el Archivo que desea Eliminar</h3><h3>Total Archivos: <?php echo $total; ?></h3>
+						 <div class="pymes-repository__repo-files-container">
 						  <?php
 
 						  //SI HAY MENO DE 2 ARCHIVOS O CARPETAS MOSTRAR MENSAJE
@@ -45,6 +46,7 @@
 				</div>
 			</div>
 		</div>
+		</div>
 		<?php if (isset($_GET['exito'])){
                           echo "<div class='alert alert-success alert-dismissible'>
                     <button type='button' class='close' data-dismiss='alert' aria-hidden='true'></button>
@@ -53,8 +55,7 @@
                       }
                       ?>
 		<a href="./"><button type="button" class="btn btn-danger">Ver Lista de Archivos</button></a>   
-	<a href="cargar.php"><button type="button" class="btn btn-warning">Subir Archivos</button></a>
-	</div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>					
+	<a href="cargar.php"><button type="button" class="btn btn-warning">Subir Archivos</button></a>				
 			<!-- footer starts here -->
 
 	<?php include 'inc/footer.php';?>	
