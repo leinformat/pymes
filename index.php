@@ -31,8 +31,8 @@ function clave()
 						  $total_archivos = count($explorar);
 						  $total = $total_archivos - 2;
 						?>
-						 <H2>Nuestros Documentos. </H2>
-						 <h3>total archivos: <?php echo $total; ?></h3>
+						 <H2>Nuestros Documentos.</H2>
+						 <h3>Total Archivos: <?php echo $total; ?></h3>
 						 <div class="pymes-repository__repo-files-container">
 						  <?php
 
@@ -66,7 +66,7 @@ function clave()
 				</div>
 			</div>
 		</div>
-		<a onclick="clave()"><button type="button" class="btn btn-danger">Subir Archivo</button></a>				
+		<a onclick="clave()"><button type="button" class="btn btn-danger pymes-repository__upload-file">Subir Archivo</button></a>				
 			<!-- footer starts here -->
 	</div>				  
 	<?php include 'inc/footer.php';?>	

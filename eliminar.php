@@ -12,7 +12,7 @@
 						  $total = $total_archivos - 2;
 						?>
 						 <H2>Nuestros Documentos. </H2>
-						 <h3 style="color: #E91621;">Haga click Sobre el Archivo que desea Eliminar</h3><h3>total archivos: <?php echo $total; ?></h3>
+						 <h3 style="color: #E91621;">Haga click Sobre el Archivo que desea Eliminar</h3><h3>Total Archivos: <?php echo $total; ?></h3>
 						  <?php
 
 						  //SI HAY MENO DE 2 ARCHIVOS O CARPETAS MOSTRAR MENSAJE
