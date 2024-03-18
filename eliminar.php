@@ -55,7 +55,8 @@
                       }
                       ?>
 		<a href="./"><button type="button" class="btn btn-danger">Ver Lista de Archivos</button></a>   
-	<a href="cargar.php"><button type="button" class="btn btn-warning">Subir Archivos</button></a>				
+	<a href="cargar.php"><button type="button" class="btn btn-warning">Subir Archivos</button></a>
+	</div>				
 			<!-- footer starts here -->
 
 	<?php include 'inc/footer.php';?>	
