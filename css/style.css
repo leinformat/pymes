@@ -76,6 +76,11 @@ body,h1,h2,h3{
 	border-radius: 20px;
 	background-color: rgba(255, 255, 255, 1);
 }
+.pymes-repository__repo-files-container{
+	display: flex;
+	flex-wrap: wrap;
+	gap:20px;
+}
 .pymes-repository__file-icon{
 	color:var(--secondary);
 }

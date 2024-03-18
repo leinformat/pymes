@@ -33,6 +33,7 @@ function clave()
 						?>
 						 <H2>Nuestros Documentos. </H2>
 						 <h3>total archivos: <?php echo $total; ?></h3>
+						 <div class="pymes-repository__repo-files-container">
 						  <?php
 
 						  //SI HAY MENO DE 2 ARCHIVOS O CARPETAS MOSTRAR MENSAJE
@@ -53,7 +54,7 @@ function clave()
 								{
 								  echo "<div class='pymes-repository__file-container'>
 											<i class='fa fa-file-text pymes-repository__file-icon'></i>
-  											<a class='pymes-repository__file-name' href='doc/$archivo'>$archivo</a>
+  											<a class='pymes-repository__file-icon' href='doc/$archivo'>$archivo</a>
 										</div>";
 								}
 							}	
@@ -61,6 +62,7 @@ function clave()
 
 						  }
 						?>
+						</div>
 				</div>
 			</div>
 		</div>
