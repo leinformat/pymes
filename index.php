@@ -52,7 +52,7 @@ function clave()
 								if ($archivo != '.' && $archivo != '..')
 								{
 								  echo "<div class='pymes-repository__file-container'>
-											<i class='class='fa fa-file-text'></i>
+											<i class='fa fa-file-text'></i>
   											<a href='doc/$archivo'>$archivo</a>
 										</div>";
 								}
