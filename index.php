@@ -51,8 +51,9 @@ function clave()
 								//SI LOS ARCHIVOS O CARPETAS SON DIFERENTES A . Y .. MOSTRARLOS
 								if ($archivo != '.' && $archivo != '..')
 								{
-								  echo "<div class='fa fa-file-text'>
-  											<div class='list-group-item fichero lista'> <a href='doc/$archivo'>$archivo</a></div>
+								  echo "<div class='pymes-repository__file-container'>
+											<i class='class='fa fa-file-text'></i>
+  											<a href='doc/$archivo'>$archivo</a>
 										</div>";
 								}
 							}	

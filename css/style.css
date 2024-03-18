@@ -66,6 +66,15 @@ body,h1,h2,h3{
 	border-radius: 20px;
 	background-color: rgba(255, 255, 255, 0.80);
 }
+.pymes-repository__file-container{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 20px;
+	border: solid 1px var(--primary);
+	border-radius: 20px;
+	background-color: rgba(255, 255, 255, 1);
+}
 
 /* FOOTER */
 .pymes-repository__footer {
