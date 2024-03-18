@@ -1,5 +1,6 @@
 :root{
 	--primary:#3D3D3D;
+	--secondary:#007B38;
 	--max-width: 1200px;
 }
 *{
@@ -74,6 +75,13 @@ body,h1,h2,h3{
 	border: solid 1px var(--primary);
 	border-radius: 20px;
 	background-color: rgba(255, 255, 255, 1);
+}
+.pymes-repository__file-icon{
+	color:var(--secondary);
+}
+.pymes-repository__file-name{
+	color:var(--primary);
+	font-weight:700;
 }
 
 /* FOOTER */
