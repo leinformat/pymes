@@ -1,11 +1,12 @@
 <?php header('Content-Type: text/html; charset=UTF-8'); ?>
+<?php include 'siteData.php';?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Asocampos, Asociacion Campesina De Planas</title>
-	<meta name="description" content="somos una asociación sin animo de lucro, con el fin de promover proyectos del gremio de la agricultura, ganadería, forestal y todo lo relacionado por el campo el cual es con fines de proporcionar a los afiliados la participación en ellos." />
+	<title><?php echo $data["title"] ?></title>
+	<meta name="description" content="<?php echo $data["metadescription"] ?>" />
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -21,10 +22,10 @@
 		<header class="pymes-repository__header-container">
 			<div class="pymes-repository__header">
 				<a class="pymes-repository__logo-link" href="index.php">
-				<img  class="pymes-repository__logo" src="logo.jpg" alt="Asocampos, Asociacion Campesina De Planas">
+				<img  class="pymes-repository__logo" src="logo-2.jpg" alt="<?php echo $data["title"] ?>">
 				</a>
 				<div class="pymes-repository__title-container">
-					<h1 class="pymes-repository__title">Asocampos, Asociacion Campesina De Planas</h1>
+					<h1 class="pymes-repository__title"><?php echo $data["title"] ?></h1>
 				</div>
 			</div>
 		</header>

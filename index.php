@@ -20,7 +20,7 @@ function clave()
 //-->
 </SCRIPT>
 		
-	<div class="container text-center seccion ">
+	<div class="container">
 		<div class="row  text-justify">
 			<div class="sombra text-justify">
 				<div class="col-md-12">
@@ -65,9 +65,7 @@ function clave()
 				</div>
 			</div>
 		</div>
-		<a onclick="clave()"><button type="button" class="btn btn-danger">Subir Archivo</button></a>
-
-	</div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>					
+		<a onclick="clave()"><button type="button" class="btn btn-danger">Subir Archivo</button></a>				
 			<!-- footer starts here -->
-
+	</div>				  
 	<?php include 'inc/footer.php';?>	

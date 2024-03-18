@@ -1,5 +1,13 @@
 :root{
 	--primary:#3D3D3D;
+	--max-width: 1200px;
+}
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+body,h1,h2,h3{
+	color:var(--primary);
 }
 /* GENERAL CONTAINER*/
 .pymes-repository{
@@ -7,19 +15,17 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
 }
 
 /* HEADER */
 .pymes-repository__header-container{
-	border: solid 1px var(--primary);
-	margin: 0 auto;
-	max-width: 1200px;
-	border-radius: 20px;
 	overflow: hidden;
 	position: sticky;
-	background-color: rgba(255, 255, 255, 0.65);
 	top: 20px;
-	backdrop-filter: blur(2px);
 }
 .pymes-repository__header {
   display: flex;
@@ -27,7 +33,13 @@
   align-items: center;
   flex-wrap: wrap;
   padding: 20px;
-  max-width: 1200px;
+  max-width: var(--max-width);
+  border: solid 1px var(--primary);
+  border-radius: 20px;
+  margin:0 auto;
+  background-color: rgba(255, 255, 255, 0.65);
+  top: 20px;
+  backdrop-filter: blur(2px);
 }
 .pymes-repository__title {
 	display: flex;
@@ -51,5 +63,12 @@
 	align-items: center;
 	flex-wrap: wrap;
 	padding: 20px;
-	background-color: #fff;
+	max-width: var(--max-width);
+	border: solid 1px var(--primary);
+	border-radius: 20px;
+	margin:0 auto;
+	background-color: rgba(255, 255, 255, 0.65);
+	top: 20px;
+	backdrop-filter: blur(2px);
+	margin-bottom:20px;
   }

@@ -1,13 +1,10 @@
 <!-- footer starts here -->
-
-					<footer class="pymes-repository__footer">
-					<div class="row">
-						<div class="col-xs-12 footer-para">
-							<p>&copy;Asociacion de mujeres emprendedoras puerto triunfo<SMALL> NIT: 900761323-3</SMALL> ... Desarrollado por: ING. LEONARDO MORALES TEL: +57 322 8790912</p>
-						</div>
-
-					</div>
-					</footer>
+		<footer class="pymes-repository__footer-container">
+			<div class="pymes-repository__footer">
+				<h4>&copy;<?php echo $data["title"] ?><SMALL> NIT: <?php echo $data["nit"] ?></SMALL></h4>
+				<h4>Desarrollado por Maynexus</h4>
+			</div>
+		</footer>
 		<!-- footer end -->
  </div>
 	<!-- script tags
