@@ -1,6 +1,6 @@
 <?php include 'inc/header.php'; ?>	
 		
-	<div class="container pymes-repository__repo-files">
+	<div class="pymes-repository__repo-files">
 		<div class="row  text-justify">
 			<div class="sombra text-justify">
 				<div class="col-md-12">
