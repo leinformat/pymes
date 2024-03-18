@@ -21,10 +21,6 @@ function clave()
 </SCRIPT>
 		
 	<div class="pymes-repository__repo-files">
-		<div class="row  text-justify">
-			<div class="sombra text-justify">
-				<div class="col-md-12">
-					
 						<?php 
 						  $directorio = 'doc';
 						  $explorar = scandir($directorio);
@@ -62,10 +58,7 @@ function clave()
 
 						  }
 						?>
-						</div>
-				</div>
-			</div>
-		</div>
+					</div>
 		<a onclick="clave()"><button type="button" class="btn btn-danger pymes-repository__upload-file">Subir Archivo</button></a>				
 			<!-- footer starts here -->
 	</div>				  
