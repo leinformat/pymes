@@ -88,7 +88,6 @@ body,h1,h2,h3{
 	border-radius: 20px;
 	background-color: rgba(255, 255, 255, 1);
 	gap:10px;
-	width: -webkit-fill-available;
 }
 .pymes-repository__file-icon{
 	color:var(--secondary);
@@ -120,5 +119,8 @@ body,h1,h2,h3{
 	}
 	.pymes-repository__repo-files-container{
 		flex-direction:column;
+	}
+	.pymes-repository__file-container{
+		width: -webkit-fill-available;
 	}
   }
