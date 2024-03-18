@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+	<link rel="shortcut icon" href="logo-2.ico">
 	<link href="./fileinput/css/fileinput.min.css" media="all" rel="stylesheet" type="text/css" />
 
 </head>
