@@ -32,11 +32,10 @@
 								//SI LOS ARCHIVOS O CARPETAS SON DIFERENTES A . Y .. MOSTRARLOS
 								if ($archivo != '.' && $archivo != '..')
 								{
-								  echo "<div class='col-md-2'>
-									      <ul class='list-group'>
-  											<li class='list-group-item fichero lista fa fa-file-text'><a href='elimina.php?eliminar=$archivo'>$archivo</a></li>
-													 </ul>
-													</div>";
+								  echo "<div class='pymes-repository__file-container'>
+								  			<i class='fa fa-file-text pymes-repository__file-icon'></i>
+  											<a class='pymes-repository__file-name' href='elimina.php?eliminar=$archivo'>$archivo</a>
+										</div>";
 								}
 							}	
 								closedir($dir);
