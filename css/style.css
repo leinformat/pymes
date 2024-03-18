@@ -1,93 +1,55 @@
-
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap');
-@charset "utf-8";
-
-.lista:hover{
-	background:rgba(52, 155, 232, 0.1);
-
+:root{
+	--primary:#3D3D3D;
 }
-.bakground{
-	background-image: url("../mujeres.jpeg");
-	 background-attachment: fixed;
-}
-.seccion{
-	background:rgba(255, 255, 255, 0.7);
-	border-radius: 10px 10px;
-	margin-bottom: 30px;
-	width: 90%;
-	border: 1px solid #BFBFBF;
-    box-shadow: 7px 7px 3px #EA1722;
-}
-.seccion .btn{
-	margin-bottom: 30px;
-}
-h1{
-	font-size: 28.5px;
+/* GENERAL CONTAINER*/
+.pymes-repository{
+	background-image: url('../puerto-gaitan-arco.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
-h1,h2,h4,small{
-   font-family: 'Alfa Slab One', cursive;
-   color: #ffffff;
+/* HEADER */
+.pymes-repository__header-container{
+	border: solid 1px var(--primary);
+	margin: 0 auto;
+	max-width: 1200px;
+	border-radius: 20px;
+	overflow: hidden;
+	position: sticky;
+	background-color: rgba(255, 255, 255, 0.65);
+	top: 20px;
+	backdrop-filter: blur(2px);
 }
-p{
-  font-family: 'Roboto', sans-serif;
-  font-style: oblique;
+.pymes-repository__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  max-width: 1200px;
 }
-.fichero{
-	width: 190px;
-	height: 60px;
-	color: #E91621;
+.pymes-repository__title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 700;
+	color:var(--primary);
 }
-.form{
-	margin-top: 10px;
+.pymes-repository__logo {
+  width: 80px;
+  height: 70px;
+  border-radius: 50%;
 }
-.sombra{
-	box-shadow: 5PX 5PX 5PX #999;
-	margin-top: 5PX;
-	margin-bottom: 5%;
+.pymes-repository__title{
+	margin:0;
 }
-.top-header{
-	background:#FFFFFF ;
-	padding: 10px;
-	margin: -15px -15px;
-	border: 1px solid #BFBFBF;
-    box-shadow: 4px 4px 3px #EA1722;
-}
-/* General*/
-	body{
-	margin: 0;
-	padding: 0;
-}
-li{
-	list-style: none;
-}
-a:hover, a:visited, a{
-	text-decoration: none;
-}
-
-h1, h2{
-	color:#010101;
-	text-transform: uppercase;
-	font-weight: bold;
-	
-}
-
-/*footer*/
-footer{
-	background: #ffffff;
-	margin: -15px -15px;
-
-}
-.footer-para{
-	margin-left: 5px;
-}
-.footer small, p{
-	font-size: 12px;
-	color: #010101;
-	font-family: 'Alfa Slab One', cursive;
-	font-weight: 300;
-	margin: 0;
-	padding: 25px 0;
-
-}
+/* FOOTER */
+.pymes-repository__footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 20px;
+	background-color: #fff;
+  }

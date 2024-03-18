@@ -1,6 +1,6 @@
 <!-- footer starts here -->
 
-					<footer class="footer">
+					<footer class="pymes-repository__footer">
 					<div class="row">
 						<div class="col-xs-12 footer-para">
 							<p>&copy;Asociacion de mujeres emprendedoras puerto triunfo<SMALL> NIT: 900761323-3</SMALL> ... Desarrollado por: ING. LEONARDO MORALES TEL: +57 322 8790912</p>
@@ -9,7 +9,6 @@
 					</div>
 					</footer>
 		<!-- footer end -->
-	
  </div>
 	<!-- script tags
 	============================================================= -->
