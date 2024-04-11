@@ -13,6 +13,9 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="shortcut icon" href="logo.ico">
 	<link href="./fileinput/css/fileinput.min.css" media="all" rel="stylesheet" type="text/css" />
+	<meta property="og:image" content="logo.jpeg" />
+    <meta property="og:image:width" content="1200" /> <!-- Dimensiones sugeridas para la imagen -->
+    <meta property="og:image:height" content="630" />
 
 </head>
 <body >
