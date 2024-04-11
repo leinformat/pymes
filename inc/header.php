@@ -22,7 +22,7 @@
 		<header class="pymes-repository__header-container">
 			<div class="pymes-repository__header">
 				<a class="pymes-repository__logo-link" href="index.php">
-				<img  class="pymes-repository__logo" src="logo-2.jpg" alt="<?php echo $data["title"] ?>">
+				<img  class="pymes-repository__logo" src="logo.jpg" alt="<?php echo $data["title"] ?>">
 				</a>
 				<div class="pymes-repository__title-container">
 					<h1 class="pymes-repository__title"><?php echo $data["title"] ?></h1>
