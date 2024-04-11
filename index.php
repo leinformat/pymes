@@ -50,7 +50,7 @@ function clave()
 								{
 								  echo "<div class='pymes-repository__file-container'>
 											<i class='fa fa-file-text pymes-repository__file-icon'></i>
-  											<a class='pymes-repository__file-name' href='doc/$archivo'>$archivo</a>
+  											<a class='pymes-repository__file-name' target='_blank' href='doc/$archivo'>$archivo</a>
 										</div>";
 								}
 							}	

@@ -2,7 +2,7 @@
 		<footer class="pymes-repository__footer-container">
 			<div class="pymes-repository__footer">
 				<h4>&copy;<?php echo $data["title"] ?><small class="pymes-repository__footer-nit"> NIT: <?php echo $data["nit"] ?></small></h4>
-				<h4><a class="pymes-repository__footer-maynexus" href="https://maynexus.com/">Desarrollado por Maynexus</a></h4>
+				<h4><a class="pymes-repository__footer-maynexus" target="_blank" href="https://maynexus.com/">Desarrollado por Maynexus</a></h4>
 			</div>
 		</footer>
 		<!-- footer end -->
