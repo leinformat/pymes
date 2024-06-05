@@ -1,6 +1,6 @@
 <?php
 $data = array(
-    "title" => "Asocampos, Asociacion Campesina De Planas",
-    "nit" => "900533421-1",
-    "metadescription"=> "somos una asociación sin animo de lucro, con el fin de promover proyectos del gremio de la agricultura, ganadería, forestal y todo lo relacionado por el campo el cual es con fines de proporcionar a los afiliados la participación en ellos."
+    "title" => "Asoturpuga, Asociación de Turismo de Puerto Gaitan",
+    "nit" => "900798014-2",
+    "metadescription"=> "Asoturpuga es una asociación sin fines de lucro en Puerto Gaitán, Meta, Colombia, comprometida con el desarrollo del turismo sostenible. Trabaja en colaboración con la comunidad, autoridades locales y empresas turísticas para promover iniciativas que impulsen el turismo responsable, la conservación cultural y la protección del medio ambiente en la región."
 );
