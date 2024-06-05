@@ -1,6 +1,6 @@
 <?php
 $data = array(
-    "title" => "Asoturpuga, Asociación de Turismo de Puerto Gaitan",
+    "title" => "Asociación Mano De Obra Local Perla Negra",
     "nit" => "900798014-2",
-    "metadescription"=> "Asoturpuga es una asociación sin fines de lucro en Puerto Gaitán, Meta, Colombia, comprometida con el desarrollo del turismo sostenible. Trabaja en colaboración con la comunidad, autoridades locales y empresas turísticas para promover iniciativas que impulsen el turismo responsable, la conservación cultural y la protección del medio ambiente en la región."
+    "metadescription"=> "La empresa Asociacion De Trabajadores Perla Negra tiene como domicilio principal de su actividad la dirección, VEREDA PUERTO TRIUNFO en la ciudad de PUERTO GAITAN, META. El teléfono de Asociacion De Trabajadores Perla Negra es el 3134432757. Esta empresa fué constituida como ENTIDAD SIN ANIMO DE LUCRO y se dedica a Actividades de otras asociaciones n c p."
 );
