@@ -1,7 +1,7 @@
 <!-- footer starts here -->
 		<footer class="pymes-repository__footer-container">
 			<div class="pymes-repository__footer">
-				<h4>&copy;<?php echo $data["title"] ?><SMALL> NIT: <?php echo $data["nit"] ?></SMALL></h4>
+				<h4>&copy;<?php echo $data["title"] ?><SMALL style="color:var(--secondary);font-weight:bold;"> NIT: <?php echo $data["nit"] ?></SMALL></h4>
 				<h4><a class="" target="_blank" href="https://maynexus.com/">Desarrollado por Maynexus</a></h4>
 			</div>
 		</footer>
