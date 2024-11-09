@@ -2,18 +2,15 @@
 
 <SCRIPT LANGUAGE="JavaScript">
 <!--
-function clave()
-{
-	var clave = "74849618";
+function clave(){
+	const clave = "123456";
 	ingreso=prompt('Introduce la clave','');
 
-	while (ingreso != clave)
-	{
+	while (ingreso != clave){
 		ingreso=prompt('Clave Incorrecta, Ingrese Nuevamente','');
 		break;
 	}
-	if (ingreso == clave) 
-	{
+	if (ingreso == clave) {
 		window.location="cargar.php";
 	}
 }

@@ -5,7 +5,7 @@
 <!--
 function clave()
 {
-	var clave = "74849618";
+	var clave = "123456";
 	ingreso=prompt('Introduce la clave','');
 
 	while (ingreso != clave)
