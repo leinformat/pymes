@@ -1,6 +1,6 @@
 <?php
 $data = array(
-    "title" => "ASOCIACION DE PRODUCTORES AGROPECUARIOS DEL RIO ITEVIARE DEL DEPARTAMENTO DEL META",
+    "title" => "asociacion de productores agropecuarios del rio iteviare del departamento del meta",
     "nit" => "900889539-8",
     "bg" => "./img/bg.jpg",
     "logo" => "./img/logo.png",
