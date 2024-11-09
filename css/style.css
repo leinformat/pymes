@@ -115,6 +115,9 @@ body,h1,h2,h3{
 	backdrop-filter: blur(2px);
 	margin-bottom:20px;
   }
+.pymes-repository__footer h4{
+	text-transform: capitalize;
+}
   @media(max-width:992px){
 	.pymes-repository__header{
 		justify-content: center;
