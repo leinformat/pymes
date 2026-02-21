@@ -1,5 +1,5 @@
 <?php header('Content-Type: text/html; charset=UTF-8'); ?>
-<?php include 'siteData.php';?>
+<?php include './services/siteData.php'; ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -21,7 +21,7 @@
 	<div class="pymes-repository">
 		<header class="pymes-repository__header-container">
 			<div class="pymes-repository__header">
-				<a class="pymes-repository__logo-link" href="index.php">
+				<a class="pymes-repository__logo-link" href="./index.php">
 				<img  class="pymes-repository__logo" src="logo-2.jpg" alt="<?php echo $data["title"] ?>">
 				</a>
 				<div class="pymes-repository__title-container">

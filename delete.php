@@ -1,3 +1,5 @@
+<?php require __DIR__ . '/services/auth.php'; ?>
+
 <?php include 'inc/header.php'; ?>	
 		
 	<div class="pymes-repository__repo-files">
@@ -30,7 +32,7 @@
 								{
 								  echo "<div class='pymes-repository__file-container'>
 								  			<i class='fa fa-file-text pymes-repository__file-icon'></i>
-  											<a class='pymes-repository__file-name' href='elimina.php?eliminar=$archivo'>$archivo</a>
+  											<a class='pymes-repository__file-name' href='./services/toDelete.php?delete=$archivo'>$archivo</a>
 										</div>";
 								}
 							}	
@@ -47,7 +49,7 @@
                       }
                       ?>
 		<a href="./"><button type="button" class="btn btn-danger">Ver Lista de Archivos</button></a>   
-	<a href="cargar.php"><button type="button" class="btn btn-warning">Subir Archivos</button></a>
+	<a href="./upload.php"><button type="button" class="btn btn-warning">Subir Archivos</button></a>
 	</div>				
 			<!-- footer starts here -->
 
