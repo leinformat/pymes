@@ -14,7 +14,7 @@ if (empty($_FILES['file-es'])) {
 // ************************************************************************
 
 // Definimos la constante con el directorio de destino de las descargas
-define('DIR_DESCARGAS',__DIR__.DIRECTORY_SEPARATOR .'doc');
+define('DIR_DESCARGAS','../doc');
 // Obtenemos el array de ficheros enviados
 $ficheros = $_FILES['file-es'];
 // Establecemos el indicador de proceso correcto (simplemente no indicando nada)

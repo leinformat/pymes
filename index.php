@@ -1,31 +1,15 @@
 <?php include 'inc/header.php'; ?>
-
-<SCRIPT LANGUAGE="JavaScript">
-<!--
-function clave()
-{
-	var clave = "123456";
-	ingreso=prompt('Introduce la clave','');
-
-	while (ingreso != clave)
-	{
-		ingreso=prompt('Clave Incorrecta, Ingrese Nuevamente','');
-		break;
-	}
-	if (ingreso == clave) 
-	{
-		window.location="cargar.php";
-	}
-}
-//-->
-</SCRIPT>
-		
 	<div class="pymes-repository__repo-files">
 						<?php 
-						  $directorio = 'doc';
+						  $directorio = './doc';
 						  $explorar = scandir($directorio);
-						  $total_archivos = count($explorar);
-						  $total = $total_archivos - 2;
+						  $total_archivos = 0;
+						  $total = 0;
+
+						  if (count($explorar) > 2){
+						  	$total_archivos = count($explorar);
+							$total = $total_archivos - 2;
+						  }
 						?>
 						 <H2>Nuestros Documentos.</H2>
 						 <h3>Total Archivos: <?php echo $total; ?></h3>
@@ -50,7 +34,7 @@ function clave()
 								{
 								  echo "<div class='pymes-repository__file-container'>
 											<i class='fa fa-file-text pymes-repository__file-icon'></i>
-  											<a class='pymes-repository__file-name' href='doc/$archivo'>$archivo</a>
+  											<a class='pymes-repository__file-name' target='_blank' href='doc/$archivo'>$archivo</a>
 										</div>";
 								}
 							}	
@@ -59,7 +43,7 @@ function clave()
 						  }
 						?>
 					</div>
-		<a onclick="clave()"><button type="button" class="btn btn-danger pymes-repository__upload-file">Subir Archivo</button></a>				
+		<a class="btn btn-danger pymes-repository__upload-file" href="upload.php">Subir Archivo</a>				
 			<!-- footer starts here -->
 	</div>				  
 	<?php include 'inc/footer.php';?>	
