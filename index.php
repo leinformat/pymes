@@ -43,7 +43,10 @@
 						  }
 						?>
 					</div>
-		<a class="btn btn-danger pymes-repository__upload-file" href="upload.php">Subir Archivo</a>				
-			<!-- footer starts here -->
+		<a class="btn btn-danger pymes-repository__upload-file" href="upload.php">Subir Archivo</a>
+		<?php if (!empty($_SESSION["auth"])) : ?>
+			<a class="btn btn-warning" href="./delete.php">Eliminar Archivos</a>
+		<?php endif; ?>				
+		<!-- footer starts here -->
 	</div>				  
 	<?php include 'inc/footer.php';?>	

@@ -7,12 +7,29 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+
+body {
+  font-family: 'Sora', sans-serif;
+  font-weight: 400;
+}
+
+h1, h2 {
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  line-height: 1.1;
+}
+
+h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
 body,h1,h2,h3{
 	color:var(--primary);
 }
 /* GENERAL CONTAINER*/
 .pymes-repository{
-	background-image: url('../puerto-gaitan-arco.jpeg');
+	background-image: url('../images/bg.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -95,6 +112,13 @@ body,h1,h2,h3{
 .pymes-repository__file-name{
 	color:var(--primary);
 	font-weight:700;
+}
+
+.pymes-repository__title-container{
+	display: flex;
+    flex-direction: column;
+    align-items: end;
+	gap:10px;
 }
 
 /* FOOTER */

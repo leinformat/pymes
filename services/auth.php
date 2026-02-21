@@ -1,17 +1,7 @@
 <?php
-if (session_status() === PHP_SESSION_NONE) {
-    session_start();
-}
+ require_once './services/session.php';
 
 define("ACCESS_KEY", "123456");
-
-// Handle logout
-if (isset($_GET['logout'])) {
-    session_unset();
-    session_destroy();
-    header("Location: " . strtok($_SERVER["REQUEST_URI"], '?'));
-    exit;
-}
 
 // Handle login
 if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST["clave"])) {
